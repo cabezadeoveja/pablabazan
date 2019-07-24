@@ -1,0 +1,354 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+  background: #5433FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5433FF, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,  #5433FF, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar-brand{
+  padding-left: 4rem!important;
+}
+
+.navbar-right{
+  padding-right: 4rem!important;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+  color: #fff;
+  letter-spacing: 0.06em;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #5433FF;
+  letter-spacing: 0.06em;
+}
+
+.navbar-default .navbar-brand:hover{
+  color: #00B4DB;
+  letter-spacing: 0.06em;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #FFF;
+}
+
+.opaque-navbar {
+  background-color: transparent;
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+}
+
+.opaque-navbar.opaque {
+  background: #5433FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5433FF, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,  #5433FF, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: background-color .5s ease .5s;
+}
+
+ul.dropdown-menu {
+  background-color: black;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+#Ilike{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.text-welcome{
+	font-size: 4.1rem;
+	letter-spacing: 0.06em;
+	line-height: 1.1;
+	color: #FFF;
+  font-weight: 700;
+}
+
+.like-text{
+    padding-top: 46vh;
+}
+
+.text-change{
+  font-weight: 700;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .text-welcome{
+  	font-size: 3.3rem;
+  	letter-spacing: 0.06em;
+  	line-height: 1.1;
+  	color: #FFF;
+    font-weight: 700;
+  }
+}
+
+#AboutMe{
+	background-color: #f5f5f5;
+	width: 100%;
+	position: relative;
+  padding-top: 6%;
+  padding-bottom: 6%;
+}
+
+.title{
+  color: #3c58f5;
+  font-size: 4.5rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .title{
+    color: #3c58f5;
+    font-size: 3.5rem;
+    padding-top: 10%;
+    font-weight: 700;
+  }
+}
+
+.parrafo{
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-top: 30px;
+  color: #34495E;
+}
+
+#Skills{
+  background-color: #f5f5f5;
+	width: 100%;
+	position: relative;
+  padding-bottom: 5%;
+}
+
+.contSkills{
+    margin-bottom: 15px;
+}
+
+.fa-search, .fa-code, .fa-pencil-alt, .fa-th-large, .fa-eye, .fa-desktop{
+	color: #3c58f5;
+  font-size: 25px;
+  width: 50%!important;
+}
+
+.title-habilidades{
+  color: #3c58f5;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.parrafoSkills{
+  font-size: 1.7rem;
+  line-height: 1.4;
+  margin-top: 5px;
+  font-weight: lighter;
+  margin-bottom: 25px;
+}
+
+#Project{
+  background-color: #f5f5f5;
+	width: 100%;
+	position: relative;
+}
+
+.box2{
+  display: block;
+  height: 380px;
+  position: relative;
+  text-align: center;
+  transition: all ease-in-out 0.1s;
+  -webkit-transition: all ease-in-out 0.0s;
+  user-select: none;
+  cursor: pointer;
+}
+
+.box2 .box-content{
+  height: 100%;
+  position: relative;
+  top: 50%;
+  margin-top: -1em;
+  text-transform: uppercase;
+  transition: all 0.0s;
+  -webkit-transition: all 0.0s ease-in-out;
+}
+
+.projects1, .projects2, .projects3, .projects4, .projects5, .projects6{
+  width: 100%;
+  float:left;
+  background-color: #333;
+  color: rgba(0,0,0,0);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.projects1{
+  background-image: url(./imagenes/japybank.jpg);
+}
+
+.projects2{
+  background-image: url(./imagenes/zootaptap.jpg);
+}
+
+.projects3{
+  background-image: url(./imagenes/cruzroja.jpg);
+}
+
+.projects4{
+  background-image: url(./imagenes/30DC.jpg);
+}
+
+.projects5{
+  background-image: url(./imagenes/parkingreservation.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.projects6{
+  background-image: url(./imagenes/hobbies.jpg);
+}
+
+.projects1:hover, .projects2:hover, .projects3:hover, .projects4:hover, .projects5:hover, .projects6:hover{
+  background-color: rgba(255,255,255,.7);
+  background-blend-mode: overlay;
+  color: #3c58f5;
+}
+
+.titleproject{
+    font-weight: bolder;
+}
+
+hr{
+  margin-bottom: 3em;
+  width: 7%;
+  transition: all ease-in-out 0.0s;
+  border-top: 1px solid transparent;
+}
+
+.box2:hover hr{
+  width: 15%;
+  transition: all ease-in-out 0.0s;
+  border: 1px solid #3c58f5;
+}
+
+#ContactMe{
+	width: 100%;
+  padding-bottom: 3%;
+	position: relative;
+}
+
+.title-white{
+  color: white;
+  padding-top: 11%;
+  margin-bottom: 0px;
+}
+
+.parrafo-white{
+  color:white;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-top: 20px;
+  letter-spacing: 0.01em;
+}
+
+.fa-envelope, .fa-phone, .fa-linkedin-in, .fa-github{
+	color: #F6E9E6;
+	font-size: 30px;
+  margin-top: 6rem;
+}
+
+.iconosContact{
+  padding-top: 5%x;
+  color: white;
+  letter-spacing: 0.06em;
+}
+
+a, a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+#thanks{
+	padding: 5rem 0 5rem 0;
+	font-size: 20px;
+  color: white;
+  letter-spacing: 0.06em;
+}
+
+#Footer{
+	background-color: #34495E;
+	width: 100%;
+	position: relative;
+}
+
+.footer-text{
+	color: #FFF;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16px;
+}
+
+/*Proyectos*/
+.bodyProjects{
+  background: #f5f5f5;
+}
+
+#bannerPage1{
+	width: 100%;
+	height: 40vh;
+  background-image: url(./imagenes/japybank_banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bannerPage2{
+	width: 100%;
+	height: 40vh;
+  background-image: url(./imagenes/zoo_banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bannerPage3{
+	width: 100%;
+	height: 40vh;
+  background-image: url(./imagenes/cruzroja_banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#aboutProject{
+	background-color: #f5f5f5;
+	width: 100%;
+	position: relative;
+  padding-top: 6%;
+  padding-bottom: 5%;
+}
+
+#DescriptionProject{
+  background-color: #f5f5f5;
+	width: 100%;
+	position: relative;
+  padding-bottom: 5%;
+}
+
+.parrafo2{
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #34495E;
+}
+
