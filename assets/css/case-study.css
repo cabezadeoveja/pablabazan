@@ -1,0 +1,36 @@
+.bg-tereclutamos {
+    background-image: url("../img/zootaptap-0.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    height: 100vh;
+  }
+
+  .bg-intitech {
+    background-image: url("../img/best_0.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    height: 100vh;
+  }
+
+  .bg-mobank {
+    background-image: url("../img/dorapp-0.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    height: 100vh;
+  }
+
+  .title{
+    font-weight: bolder;
+  }

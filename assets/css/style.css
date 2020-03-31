@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    font-family: 'Karla', sans-serif;
+}
+
+header {
+    height: 9vh;
+}
+
+a {
+    color:  rgba(255,255,255,.5);
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.bg-dark {
+    background-color: #000 !important;
+    z-index: 1;
+}
+
+.mt-10 {
+    margin-top: 150px;
+}
+
