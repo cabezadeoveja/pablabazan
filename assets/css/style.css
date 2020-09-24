@@ -5,20 +5,24 @@ body {
 
 header {
     height: 9vh;
+    font-size: 16px;
 }
 
 a {
     color:  rgba(255,255,255,.5);
+    font-size: 16px;
 }
 
 a:hover {
     text-decoration: none;
-    color: rgba(255,255,255,.75)
+    color: rgba(255,255,255,.75);
+    font-size: 16px;
 }
 
 .bg-dark {
     background-color: #000 !important;
     z-index: 900;
+    font-size: 16px;
 }
 
 .mt-10 {
