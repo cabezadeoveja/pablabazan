@@ -18,10 +18,9 @@ a:hover {
 
 .bg-dark {
     background-color: #000 !important;
-    z-index: 1;
+    z-index: 900;
 }
 
 .mt-10 {
     margin-top: 150px;
 }
-
