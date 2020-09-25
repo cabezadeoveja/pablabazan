@@ -31,6 +31,17 @@
     height: 100vh;
   }
 
+  .bg-plataformas {
+    background-image: url("../img/plataformas-0.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    height: 100vh;
+  }
+
   .title{
     font-weight: bolder;
   }
